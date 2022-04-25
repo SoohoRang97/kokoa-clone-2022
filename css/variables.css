@@ -1,0 +1,29 @@
+/*Blue*/
+:root{
+    --blue_0:#c2d3e4;
+    --blue_1:#1b64da;
+    --blue_2:#3182F6;
+    --blue_3:#3D6AFE;
+    --blue_4:#1B64DA;
+}
+/*Gray*/
+:root{
+    --Black:#1e1e25;
+    --icon_1:#6B7684;
+    --gray_1:#4e5968;
+    --icon_2:#333d4B;
+    --gray_2:#f2f2f5;
+    --sub_1:#747482;
+    --sub_2:#93939f;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f5;
+}
+main{
+    margin-top: 90px;
+    padding:0 15px;
+    margin-bottom: 50px;
+}

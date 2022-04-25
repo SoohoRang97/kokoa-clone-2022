@@ -1,0 +1,55 @@
+
+.money-list{
+    width: 100%;
+    background-color: white;
+    padding:15px 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 5px #f1f1f2;
+}
+.account-list{
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+}
+.account-list:hover{
+    transform: translateY(5px);
+    background-color: #f1f1f2;
+}
+.account-list img{
+    margin-right: 20px;
+}
+.account-list__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card-list__img{
+    width: 40px;
+    height: 70px;
+}
+.account-list__text{
+    overflow: hidden;
+}
+.account-list__text h2{
+    margin-bottom: 5px;
+}
+.money-list h1{
+    margin-bottom: 5px;
+}
+h1{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--icon_2);
+}
+h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--icon_1);
+}
+h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--icon_2);
+}

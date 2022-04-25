@@ -1,0 +1,49 @@
+.setting-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--icon_2);
+    padding: 20px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+  }
+.fa-angle-left{
+    position: absolute;
+    cursor: pointer;
+    left: 20px;
+    font-size: 18px;
+  }
+  .fixed__set{
+    width: 100%;
+    position: fixed ;
+    height: 80px;
+    top: 0;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid #e2e4e6;
+}
+.setting-left{
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.setting-list__text>h2{
+  color: var(--icon_2);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.light>h2{
+  font-size: 16px;
+font-weight: 400;
+}
+.setting-list__text>h3{
+  color: var(--icon_1);
+  font-size:13px ;
+  font-weight: 400;
+}
+.fa-angle-right{
+  font-size: 16px;
+}

@@ -1,0 +1,128 @@
+.chat-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:  100%;
+    background-color: #f1f1f2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.chat-search__column:first-child{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: var(--icon_1);
+}
+
+.chat-search__column:last-child{
+    width: 90%;
+}
+.chat-list__padding{
+    width: 100%;
+    background-color: white;
+    padding:15px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 5px #f1f1f2;  
+}
+
+.chat-list{
+    width: 100%;
+    background-color: white;
+    padding:15px 0px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 5px #f1f1f2;  
+}
+.chat-list__text{
+    width: 300px;
+    overflow: hidden;
+}
+.chat-list__text>h3{
+    margin-bottom: 10px;
+}
+.chat-list__text>h2{
+    font-weight: 400;
+    height: 15px;
+}
+.chat-search input{
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #f1f1f2;
+    border-radius: 5px;
+    color: var(--icon_1);
+}
+
+.chat-center{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.chat-list__profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--icon_2);
+    font-size: 25px;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat-list__ox{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.chat-list__box{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+.chat-list__left{
+    display: flex;
+    align-items: center;
+}
+.chat-list__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 45px;
+}
+.chat-list__right>h2{
+    font-size: 11px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.chat-list__right>div{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+.chat-list__box:hover{
+    transform: translateY(5px);
+    background-color: #f1f1f2;
+}
+
+.enter_icon{
+    background-color: var(--blue_2);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}

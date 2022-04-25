@@ -1,0 +1,129 @@
+.fa-bullhorn{
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: var(--blue_2);
+}
+.quotes-list_text>h3{
+    margin-bottom: 5px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.me-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 20px;
+}
+.me-list__text{
+    background-color: var(--blue_2);
+    font-size: 14px;
+    padding: 10px 10px;
+    font-weight: 300;
+    border-radius: 30px;
+    color: white;
+}
+.team-id{
+    padding-left: 85px;
+    margin-top: 11px;
+    margin-bottom: 2px;
+}
+.team-list__text{
+    word-break: break-all;
+    max-width: 305px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 20px;
+    font-weight: 300;
+    border-radius: 30px;
+    color: var(--icon_2);
+}
+.profile-none{    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 15px;
+}
+.team-left{
+    display: flex;
+    align-items: center;
+}
+.team-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--icon_1);
+    margin-right: 15px;
+}
+.reply {
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    width: 94%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+    border-radius: 30px;
+  }
+  
+  .reply .reply__column:first-child {
+    width: 10%;
+  }
+  .reply .reply__column:last-child {
+    width: 90%;
+    position: relative;
+  }
+  .reply input {
+    padding: 14px;
+    width: 100%;
+    border:none;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  .reply__column i {
+      color: var(--blue_2);
+  }
+  .reply__column button {
+    position: absolute;
+    right: 3px;
+    top: 13px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  section {
+    transform: translateX(-100px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.3s ease-in-out forwards;
+  }
+ 
+  .me-list__text {
+    transform: translateX(100px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.3s ease-in-out forwards;
+  }
+.team-first {
+    animation-delay: 0.4s;
+  }
+.team-second {
+    animation-delay: 0.8s;
+  }
+  .me-team {
+    animation-delay: 1.2s;
+  }

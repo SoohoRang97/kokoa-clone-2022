@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/alram.css";
+@import "components/no-mobile.css";
+
+/* Chats*/
+@import "chats/team-chat.css";
+@import "chats/chat-page_1.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/banks.css";
+@import "screens/stock.css";
+@import "screens/point.css";
+@import "screens/setting.css";
+@import "screens/chats.css";
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
